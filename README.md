@@ -9,4 +9,4 @@
 
 ### Example:
 
-- A Vihicle
+- A Vehicle
