@@ -45,14 +45,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicle\Key.cs" />
+    <Compile Include="Vehicle\System\ControlSystem.cs" />
+    <Compile Include="Vehicle\System\EnergySystem.cs" />
+    <Compile Include="Vehicle\System\LocomotionSystem.cs" />
+    <Compile Include="Vehicle\System\SafetySystem.cs" />
+    <Compile Include="Vehicle\VehicleFacade.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="System\" />
-    <Folder Include="UI\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
